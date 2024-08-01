@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <BaseURL>https://d1yws6emo43ny.cloudfront.net/CH1/</BaseURL>
 <MPD profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2024-07-02T04:18:34Z" minimumUpdatePeriod="PT6.0S" minBufferTime="PT6.0S" publishTime="2024-08-01T10:05:23.116Z" timeShiftBufferDepth="PT60.0S" suggestedPresentationDelay="PT10.0S" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
-	<Period start="P30DT5H41M15.967844S" id="15253">
+   <Period id="P0" start="PT0S">
 		<AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" par="16:9">
 			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh></ContentProtection>
