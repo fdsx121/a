@@ -5,7 +5,7 @@
 		<AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" par="16:9">
 			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh></ContentProtection>
-			<SegmentTemplate timescale="10000000" presentationTimeOffset="26124758878440" media="$RepresentationID$_Segment-$Time$.m4v" initialization="$RepresentationID$_init.m4i">
+			<SegmentTemplate timescale="10000000" media="$RepresentationID$_Segment-$Time$.m4v" initialization="$RepresentationID$_init.m4i">
 				<SegmentTimeline>
 					<S t="26127661278440" d="60000000" r="9" />
 				</SegmentTimeline>
@@ -20,7 +20,7 @@
 		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="cmn" segmentAlignment="true">
 			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh></ContentProtection>
-			<SegmentTemplate timescale="10000000" presentationTimeOffset="26124758878440" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
+			<SegmentTemplate timescale="10000000" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
 				<SegmentTimeline>
 					<S t="26127661617440" d="59733333" />
 					<S t="26127721350773" d="60160000" r="1" />
@@ -37,7 +37,7 @@
 		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="mul" segmentAlignment="true">
 			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh></ContentProtection>
-			<SegmentTemplate timescale="10000000" presentationTimeOffset="26124758878440" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
+			<SegmentTemplate timescale="10000000" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
 				<SegmentTimeline>
 					<S t="26127661617440" d="59733333" />
 					<S t="26127721350773" d="60160000" r="1" />
@@ -52,7 +52,7 @@
 			<Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="1719893897981item-08item" bandwidth="39000" />
 		</AdaptationSet>
 		<AdaptationSet mimeType="application/mp4" startWithSAP="1" lang="cmn" segmentAlignment="true">
-			<SegmentTemplate timescale="10000000" presentationTimeOffset="26124758878440" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
+			<SegmentTemplate timescale="10000000" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
 				<SegmentTimeline>
 					<S t="26127661278440" d="60000000" r="9" />
 				</SegmentTimeline>
@@ -60,7 +60,7 @@
 			<Representation codecs="stpp" id="1719893897981item-10item" bandwidth="15000" />
 		</AdaptationSet>
 		<AdaptationSet mimeType="application/mp4" startWithSAP="1" lang="eng" segmentAlignment="true">
-			<SegmentTemplate timescale="10000000" presentationTimeOffset="26124758878440" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
+			<SegmentTemplate timescale="10000000" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
 				<SegmentTimeline>
 					<S t="26127661278440" d="60000000" r="8" />
 				</SegmentTimeline>
@@ -68,7 +68,7 @@
 			<Representation codecs="stpp" id="1719893897981item-11item" bandwidth="15000" />
 		</AdaptationSet>
 		<AdaptationSet mimeType="application/mp4" startWithSAP="1" lang="msa" segmentAlignment="true">
-			<SegmentTemplate timescale="10000000" presentationTimeOffset="26124758878440" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
+			<SegmentTemplate timescale="10000000" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
 				<SegmentTimeline>
 					<S t="26127661278440" d="60000000" r="9" />
 				</SegmentTimeline>
