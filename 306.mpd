@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD availabilityStartTime="2024-07-02T04:18:34Z" minBufferTime="PT6.0S" minimumUpdatePeriod="PT6.0S" profiles="urn:mpeg:dash:profile:isoff-live:2011" publishTime="2024-08-01T08:39:11.113Z" suggestedPresentationDelay="PT10.0S" timeShiftBufferDepth="PT60.0S" type="dynamic" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
     <BaseURL>https://d1yws6emo43ny.cloudfront.net/CH1/</BaseURL>
-    <Location>https://a2ef74f67b1f43689b5bef947c40d9ed.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/4ad19442a5c36709752f44aae3b98db617a3c3d7/AEC_Production/masterCH1.mpd?aws.sessionId=0f37a1a0-daac-4108-9b46-3c637271e52a</Location>
+    <Location>https://a2ef74f67b1f43689b5bef947c40d9ed.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/4ad19442a5c36709752f44aae3b98db617a3c3d7/AEC_Production/masterCH1.mpd</Location>
     <Period id="15219" start="P30DT4H7M32.367844S">
         <AdaptationSet mimeType="video/mp4" par="16:9" segmentAlignment="true" startWithSAP="1">
             <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
