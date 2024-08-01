@@ -1,87 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MPD availabilityStartTime="2024-07-02T04:18:34Z" minBufferTime="PT6.0S" minimumUpdatePeriod="PT6.0S" profiles="urn:mpeg:dash:profile:isoff-live:2011" publishTime="2024-08-01T08:39:11.113Z" suggestedPresentationDelay="PT10.0S" timeShiftBufferDepth="PT60.0S" type="dynamic" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<MPD profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2024-07-02T04:18:34Z" minimumUpdatePeriod="PT6.0S" minBufferTime="PT6.0S" publishTime="2024-08-01T08:49:48.109Z" timeShiftBufferDepth="PT60.0S" suggestedPresentationDelay="PT10.0S" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
     <BaseURL>https://d1yws6emo43ny.cloudfront.net/CH1/</BaseURL>
-    <Location>https://a2ef74f67b1f43689b5bef947c40d9ed.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/4ad19442a5c36709752f44aae3b98db617a3c3d7/AEC_Production/masterCH1.mpd</Location>
-    <Period id="15219" start="P30DT4H7M32.367844S">
-        <AdaptationSet mimeType="video/mp4" par="16:9" segmentAlignment="true" startWithSAP="1">
-            <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
-            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-                <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh>
-            </ContentProtection>
-            <SegmentTemplate initialization="$RepresentationID$_init.m4i" media="$RepresentationID$_Segment-$Time$.m4v" presentationTimeOffset="26068522878440" timescale="10000000">
-                <SegmentTimeline>
-                    <S d="60000000" r="9" t="26075941278440"/>
-                </SegmentTimeline>
-            </SegmentTemplate>
-            <Representation bandwidth="360000" codecs="avc1.4d4015" frameRate="25" height="270" id="1719893897981item-01item" sar="1:1" scanType="progressive" width="480"/>
-            <Representation bandwidth="600000" codecs="avc1.4d4016" frameRate="25" height="270" id="1719893897981item-02item" sar="1:1" scanType="progressive" width="480"/>
-            <Representation bandwidth="800000" codecs="avc1.4d4020" frameRate="25" height="480" id="1719893897981item-03item" sar="3:4" scanType="progressive" width="640"/>
-            <Representation bandwidth="960000" codecs="avc1.4d4029" frameRate="25" height="540" id="1719893897981item-04item" sar="1:1" scanType="progressive" width="960"/>
-            <Representation bandwidth="1500000" codecs="avc1.640029" frameRate="25" height="720" id="1719893897981item-05item" sar="1:1" scanType="progressive" width="1280"/>
-            <Representation bandwidth="4000000" codecs="avc1.64002a" frameRate="50" height="1080" id="1719893897981item-06item" sar="1:1" scanType="progressive" width="1920"/>
-        </AdaptationSet>
-        <AdaptationSet lang="cmn" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
-            <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
-            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-                <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh>
-            </ContentProtection>
-            <SegmentTemplate initialization="$RepresentationID$_init.m4i" media="$RepresentationID$_Segment-$Time$.m4a" presentationTimeOffset="26068522878440" timescale="10000000">
-                <SegmentTimeline>
-                    <S d="60160000" t="26075941510773"/>
-                    <S d="59733333" t="26076001670773"/>
-                    <S d="60160000" t="26076061404106"/>
-                    <S d="59733334" t="26076121564106"/>
-                    <S d="60160000" r="1" t="26076181297440"/>
-                    <S d="59733333" t="26076301617440"/>
-                    <S d="60160000" r="1" t="26076361350773"/>
-                    <S d="59733333" t="26076481670773"/>
-                </SegmentTimeline>
-            </SegmentTemplate>
-            <Representation audioSamplingRate="48000" bandwidth="39000" codecs="mp4a.40.5" id="1719893897981item-07item"/>
-        </AdaptationSet>
-        <AdaptationSet lang="mul" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
-            <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
-            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-                <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh>
-            </ContentProtection>
-            <SegmentTemplate initialization="$RepresentationID$_init.m4i" media="$RepresentationID$_Segment-$Time$.m4a" presentationTimeOffset="26068522878440" timescale="10000000">
-                <SegmentTimeline>
-                    <S d="60160000" t="26075941510773"/>
-                    <S d="59733333" t="26076001670773"/>
-                    <S d="60160000" t="26076061404106"/>
-                    <S d="59733334" t="26076121564106"/>
-                    <S d="60160000" r="1" t="26076181297440"/>
-                    <S d="59733333" t="26076301617440"/>
-                    <S d="60160000" r="1" t="26076361350773"/>
-                    <S d="59733333" t="26076481670773"/>
-                </SegmentTimeline>
-            </SegmentTemplate>
-            <Representation audioSamplingRate="48000" bandwidth="39000" codecs="mp4a.40.5" id="1719893897981item-08item"/>
-        </AdaptationSet>
-        <AdaptationSet lang="cmn" mimeType="application/mp4" segmentAlignment="true" startWithSAP="1">
-            <SegmentTemplate initialization="$RepresentationID$_init.m4i" media="$RepresentationID$_Segment-$Time$.m4s" presentationTimeOffset="26068522878440" timescale="10000000">
-                <SegmentTimeline>
-                    <S d="60000000" r="8" t="26075941278440"/>
-                </SegmentTimeline>
-            </SegmentTemplate>
-            <Representation bandwidth="15000" codecs="stpp" id="1719893897981item-10item"/>
-        </AdaptationSet>
-        <AdaptationSet lang="eng" mimeType="application/mp4" segmentAlignment="true" startWithSAP="1">
-            <SegmentTemplate initialization="$RepresentationID$_init.m4i" media="$RepresentationID$_Segment-$Time$.m4s" presentationTimeOffset="26068522878440" timescale="10000000">
-                <SegmentTimeline>
-                    <S d="60000000" r="9" t="26075941278440"/>
-                </SegmentTimeline>
-            </SegmentTemplate>
-            <Representation bandwidth="15000" codecs="stpp" id="1719893897981item-11item"/>
-        </AdaptationSet>
-        <AdaptationSet lang="msa" mimeType="application/mp4" segmentAlignment="true" startWithSAP="1">
-            <SegmentTemplate initialization="$RepresentationID$_init.m4i" media="$RepresentationID$_Segment-$Time$.m4s" presentationTimeOffset="26068522878440" timescale="10000000">
-                <SegmentTimeline>
-                    <S d="60000000" r="9" t="26075941278440"/>
-                </SegmentTimeline>
-            </SegmentTemplate>
-            <Representation bandwidth="15000" codecs="stpp" id="1719893897981item-09item"/>
-        </AdaptationSet>
-    </Period>
-    <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="http://time.akamai.com/?iso"/>
+    <Location>https://a2ef74f67b1f43689b5bef947c40d9ed.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/4ad19442a5c36709752f44aae3b98db617a3c3d7/AEC_Production/masterCH1.mpd?aws.sessionId=eed0ba10-3076-4c3d-b317-19ced3c6c3a4</Location>
+	<Period start="P30DT4H24M59.367844S" id="15225">
+		<AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" par="16:9">
+			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh></ContentProtection>
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="26078992878440" media="$RepresentationID$_Segment-$Time$.m4v" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="26082301278440" d="60000000" r="9" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation width="480" height="270" frameRate="25" codecs="avc1.4d4015" scanType="progressive" sar="1:1" id="1719893897981item-01item" bandwidth="360000" />
+			<Representation width="480" height="270" frameRate="25" codecs="avc1.4d4016" scanType="progressive" sar="1:1" id="1719893897981item-02item" bandwidth="600000" />
+			<Representation width="640" height="480" frameRate="25" codecs="avc1.4d4020" scanType="progressive" sar="3:4" id="1719893897981item-03item" bandwidth="800000" />
+			<Representation width="960" height="540" frameRate="25" codecs="avc1.4d4029" scanType="progressive" sar="1:1" id="1719893897981item-04item" bandwidth="960000" />
+			<Representation width="1280" height="720" frameRate="25" codecs="avc1.640029" scanType="progressive" sar="1:1" id="1719893897981item-05item" bandwidth="1500000" />
+			<Representation width="1920" height="1080" frameRate="50" codecs="avc1.64002a" scanType="progressive" sar="1:1" id="1719893897981item-06item" bandwidth="4000000" />
+		</AdaptationSet>
+		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="cmn" segmentAlignment="true">
+			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh></ContentProtection>
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="26078992878440" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="26082301404106" d="60160000" />
+					<S t="26082361564106" d="59733334" />
+					<S t="26082421297440" d="60160000" r="1" />
+					<S t="26082541617440" d="59733333" />
+					<S t="26082601350773" d="60160000" r="1" />
+					<S t="26082721670773" d="59733333" />
+					<S t="26082781404106" d="60160000" />
+					<S t="26082841564106" d="59733334" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="1719893897981item-07item" bandwidth="39000" />
+		</AdaptationSet>
+		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="mul" segmentAlignment="true">
+			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAbXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE0IARIQAesRaCCJQPiycLTgmUVw5xoHa2FsdHVyYSIoMzA4OTYzMy1mMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyoCSEQyAA==</cenc:pssh></ContentProtection>
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="26078992878440" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="26082301404106" d="60160000" />
+					<S t="26082361564106" d="59733334" />
+					<S t="26082421297440" d="60160000" r="1" />
+					<S t="26082541617440" d="59733333" />
+					<S t="26082601350773" d="60160000" r="1" />
+					<S t="26082721670773" d="59733333" />
+					<S t="26082781404106" d="60160000" />
+					<S t="26082841564106" d="59733334" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="1719893897981item-08item" bandwidth="39000" />
+		</AdaptationSet>
+		<AdaptationSet mimeType="application/mp4" startWithSAP="1" lang="cmn" segmentAlignment="true">
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="26078992878440" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="26082301278440" d="60000000" r="9" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation codecs="stpp" id="1719893897981item-10item" bandwidth="15000" />
+		</AdaptationSet>
+		<AdaptationSet mimeType="application/mp4" startWithSAP="1" lang="eng" segmentAlignment="true">
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="26078992878440" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="26082301278440" d="60000000" r="9" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation codecs="stpp" id="1719893897981item-11item" bandwidth="15000" />
+		</AdaptationSet>
+		<AdaptationSet mimeType="application/mp4" startWithSAP="1" lang="msa" segmentAlignment="true">
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="26078992878440" media="$RepresentationID$_Segment-$Time$.m4s" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="26082301278440" d="60000000" r="9" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation codecs="stpp" id="1719893897981item-09item" bandwidth="15000" />
+		</AdaptationSet>
+	</Period>
+	<UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="http://time.akamai.com/?iso" />
 </MPD>
