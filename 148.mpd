@@ -11,6 +11,10 @@
 					<S t="56156730443540" d="40000000" r="13" />
 				</SegmentTimeline>
 			</SegmentTemplate>
+			<Representation width="480" height="270" frameRate="25" codecs="avc1.428016" scanType="progressive" sar="1:1" id="1763981383335item-01item" bandwidth="500000" />
+			<Representation width="640" height="360" frameRate="25" codecs="avc1.4d4020" scanType="progressive" sar="1:1" id="1763981383335item-02item" bandwidth="1000000" />
+			<Representation width="960" height="540" frameRate="25" codecs="avc1.4d4029" scanType="progressive" sar="1:1" id="1763981383335item-03item" bandwidth="2000000" />
+			<Representation width="1280" height="720" frameRate="25" codecs="avc1.640029" scanType="progressive" sar="1:1" id="1763981383335item-04item" bandwidth="3000000" />
 			<Representation width="1920" height="1080" frameRate="25" codecs="avc1.64002a" scanType="progressive" sar="1:1" id="1763981383335item-05item" bandwidth="4000000" />
 		</AdaptationSet>
 		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="chi" segmentAlignment="true">
